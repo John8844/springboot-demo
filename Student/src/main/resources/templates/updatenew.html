@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Update</title>
+</head>
+<body>
+<div th:text="${user}">
+  User Details will be displayed here.
+</div>
+<h2>Details to deleted. Enter new Details</h2> <br>
+<form action="/addUser">
+  Enter ID : <input type="text" name="id"> <br>
+  Enter Name : <input type="text" name="name"> <br>
+  Enter Mark: <input type="text" name="mark"><br>
+  <input type="submit">
+</form>
+</body>
+</html>

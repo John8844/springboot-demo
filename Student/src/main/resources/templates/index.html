@@ -5,10 +5,26 @@
     <title>Home</title>
 </head>
 <body>
+<h2>Insert Details to Database</h2> <br>
 <form action="/addUser">
     Enter ID : <input type="text" name="id"> <br>
     Enter Name : <input type="text" name="name"> <br>
     Enter Mark: <input type="text" name="mark"><br>
+    <input type="submit">
+</form> <br><br>
+<h2>Display User Details</h2>
+<form action="/getUser">
+    Enter ID to Display : <input type="text" name="id"> <br>
+    <input type="submit">
+</form><br><br>
+<h2>Update User Details</h2>
+<form action="/updateUser">
+    Enter ID to Update : <input type="text" name="id"> <br>
+    <input type="submit">
+</form><br><br>
+<h2>Delete User Details</h2>
+<form action="/deleteUser">
+    Enter ID to Delete : <input type="text" name="id"> <br>
     <input type="submit">
 </form>
 </body>

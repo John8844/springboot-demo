@@ -13,6 +13,10 @@ public class User {
     @Column(length = 128, nullable = false)
     private int mark;
 
+    public String toString(){
+        return name + " : " + mark;
+    }
+
     public int getID() {
         return ID;
     }
